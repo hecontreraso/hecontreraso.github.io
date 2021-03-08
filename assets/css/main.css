@@ -2429,6 +2429,12 @@ input[type='radio'] + label:before {
 
 /* Image */
 
+#background {
+	background-image: url(../../images/hero.jpeg);
+	background-size: cover;
+	background-position: bottom;
+}
+
 .image {
 	border: 0;
 	display: inline-block;
@@ -3023,23 +3029,13 @@ a.arrow:before {
 
 .gallery a img {
 	display: block;
-	height: 25vw;
-	min-height: 18rem;
 	object-fit: cover;
 	object-position: center;
 	width: 100%;
 }
 
 .gallery a.landscape {
-	width: 100%;
-}
-
-.gallery a.landscape img {
-	height: 30vw;
-}
-
-.gallery a.portrait img {
-	height: 30vw;
+	width: 29%;
 }
 
 .gallery .modal {
@@ -3171,18 +3167,6 @@ a.arrow:before {
 }
 
 @media screen and (max-width: 1152px) {
-	.gallery a img {
-		height: 20rem;
-	}
-
-	.gallery a.landscape img {
-		height: 25rem;
-	}
-
-	.gallery a.portrait img {
-		height: 25rem;
-	}
-
 	.gallery .modal .inner img {
 		max-width: 100vw;
 	}
@@ -3197,18 +3181,6 @@ a.arrow:before {
 	.gallery a {
 		margin: 0.625rem 0 0 0.625rem;
 		width: calc(50% - 0.625rem);
-	}
-
-	.gallery a img {
-		height: 20rem;
-	}
-
-	.gallery a.landscape img {
-		height: 20rem;
-	}
-
-	.gallery a.portrait img {
-		height: 30rem;
 	}
 }
 
@@ -3253,7 +3225,7 @@ ul.feature-icons li:before {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	color: white;
+	color: goldenrod;
 	display: block;
 	font-size: 1.25rem;
 	height: 3.25rem;
@@ -3439,7 +3411,7 @@ ul.feature-icons li:nth-child(2) {
 }
 
 #wrapper > section.intro > .content {
-	height: 100vh;
+	height: 75vh;
 	max-width: none;
 }
 
