@@ -2429,6 +2429,12 @@ input[type='radio'] + label:before {
 
 /* Image */
 
+#background {
+	background-image: url(../../images/hero.jpeg);
+	background-size: cover;
+	background-position: bottom;
+}
+
 .image {
 	border: 0;
 	display: inline-block;
@@ -3401,7 +3407,7 @@ ul.feature-icons li:nth-child(2) {
 }
 
 #wrapper > section.intro > .content {
-	height: 100vh;
+	height: 75vh;
 	max-width: none;
 }
 
