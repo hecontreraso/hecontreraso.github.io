@@ -3292,6 +3292,10 @@ ul.feature-icons li:nth-child(2) {
 	margin-top: 0;
 }
 
+.no-upper-padding {
+	padding: 0 5em !important;
+}
+
 #wrapper section > header {
 	grid-area: header;
 	justify-self: end;
