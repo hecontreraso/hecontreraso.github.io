@@ -2049,7 +2049,7 @@ button.primary,
 	color: white !important;
 }
 .button.whatsapp {
-	background-color: #25D366;
+	background-color: #25d366;
 	box-shadow: none;
 	color: white !important;
 }
@@ -3326,6 +3326,10 @@ ul.feature-icons li:nth-child(2) {
 	text-align: right;
 }
 
+.yellow {
+	background-color: #ffc756;
+}
+
 #wrapper section > header h2 {
 	margin: 0 0 5rem 0;
 }
@@ -3467,17 +3471,16 @@ ul.feature-icons li:nth-child(2) {
 	color: inherit;
 }
 
-#wrapper section {
+/* #wrapper section {
 	margin: 3rem 0 0 0;
-}
+} */
 
 #wrapper section > header {
-	padding: 0 10rem 0 5rem;
-	width: 35rem;
+	padding: 5rem 10rem 0 5rem;
 }
 
 #wrapper section > .content {
-	padding: 0 5rem;
+	padding: 5rem 5rem;
 }
 
 #wrapper section > footer {
