@@ -2430,9 +2430,9 @@ input[type='radio'] + label:before {
 /* Image */
 
 #background {
-	background-image: url(../../images/hero3.jpg);
+	background-image: url(../../images/hero2.jpeg);
 	background-size: cover;
-	background-position: bottom;
+	background-position: center;
 }
 
 .image {
@@ -3293,7 +3293,14 @@ ul.feature-icons li:nth-child(2) {
 }
 
 .no-upper-padding {
-	padding: 0 5em !important;
+	padding: 0 5em;
+	grid-area: content;
+	max-width: 60rem;
+	position: relative;
+}
+
+.nomargin {
+	margin: 0 !important;
 }
 
 #wrapper section > header {
@@ -3415,8 +3422,17 @@ ul.feature-icons li:nth-child(2) {
 	max-width: none;
 }
 
+.whatsapp-icon {
+	position: fixed;
+	bottom: 3em;
+	right: 3em;
+	width: 4em;
+	height: 4em;
+	z-index: 1;
+}
+
 #wrapper > section:last-of-type > header:before {
-	height: 100%;
+	height: calc(100% - 5rem);
 }
 
 #wrapper > section:last-of-type > header:after {
@@ -3452,7 +3468,7 @@ ul.feature-icons li:nth-child(2) {
 }
 
 #wrapper section > .content {
-	padding: 5rem 5rem;
+	padding: 5rem 5rem 0 5rem;
 }
 
 #wrapper section > footer {
