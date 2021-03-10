@@ -3289,10 +3289,18 @@ ul.feature-icons li:nth-child(2) {
 }
 
 .no-upper-padding {
-	padding: 0 5em;
 	grid-area: content;
 	max-width: 60rem;
 	position: relative;
+}
+
+@media screen and (min-width: 1152px) {
+	.no-upper-padding {
+		padding: 0 5em;
+		grid-area: content;
+		max-width: 60rem;
+		position: relative;
+	}
 }
 
 .nomargin {
